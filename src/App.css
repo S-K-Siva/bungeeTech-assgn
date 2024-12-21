@@ -1,0 +1,61 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  background-image: url("/Users/sivasakthivel/Desktop/BungeeTech/Weather_App_BungeeTech/src/assets/sky.png");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  margin: 0;
+}
+
+.Mycontainer {
+
+  background: #4a6ac9;
+  color : white;
+  border-radius: 10px;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+.Mycontainer1 {
+
+  background: #4a6ac9;
+  color : white;
+  border-radius: 10px;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+.button-container{
+    background-color: white;
+    color:white;
+}
+#weather-desc,p{
+    color:white;
+}
+.space-line {
+    width: 80%; /* Length of the line */
+    height: 0.3rem; /* Thickness of the line */
+    background-color: rgb(232, 228, 228); /* Solid black line */
+    
+    margin: 1rem auto; /* Center horizontally and add vertical spacing */
+    border: 0.1rem solid rgb(221, 217, 217); /* No borders */
+    border-radius: 40%; /* No rounding */
+    opacity: 1; /* Fully opaque */
+}
+
+.weather-info-container{
+    background-color: rgb(201, 193, 193);
+}
+.location{
+    font-size:3rem;
+}
