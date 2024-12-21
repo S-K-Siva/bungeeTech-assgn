@@ -17,45 +17,75 @@ html, body {
   margin: 0;
 }
 
-.Mycontainer {
-
+.Mycontainer, .Mycontainer1 {
   background: #4a6ac9;
-  color : white;
+  color: white;
   border-radius: 10px;
   width: 50%;
   padding: 20px;
   text-align: center;
 }
-.Mycontainer1 {
 
-  background: #4a6ac9;
-  color : white;
-  border-radius: 10px;
-  width: 50%;
-  padding: 20px;
-  text-align: center;
+.button-container {
+  background-color: white;
+  color: white;
 }
-.button-container{
-    background-color: white;
-    color:white;
+
+#weather-desc, p {
+  color: white;
 }
-#weather-desc,p{
-    color:white;
-}
+
 .space-line {
-    width: 80%; /* Length of the line */
-    height: 0.3rem; /* Thickness of the line */
-    background-color: rgb(232, 228, 228); /* Solid black line */
-    
-    margin: 1rem auto; /* Center horizontally and add vertical spacing */
-    border: 0.1rem solid rgb(221, 217, 217); /* No borders */
-    border-radius: 40%; /* No rounding */
-    opacity: 1; /* Fully opaque */
+  width: 80%;
+  height: 0.3rem;
+  background-color: rgb(232, 228, 228);
+  margin: 1rem auto;
+  border: 0.1rem solid rgb(221, 217, 217);
+  border-radius: 40%;
+  opacity: 1;
 }
 
-.weather-info-container{
-    background-color: rgb(201, 193, 193);
+.weather-info-container {
+  background-color: rgb(201, 193, 193);
 }
-.location{
-    font-size:3rem;
+
+.location {
+  font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+  .Mycontainer, .Mycontainer1 {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .space-line {
+    width: 90%;
+  }
+
+  .location {
+    font-size: 2rem;
+  }
+
+  #weather-desc, p {
+    font-size: 0.9rem;
+  }
+
+  .main-container {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .location {
+    font-size: 1.8rem;
+  }
+
+  #weather-desc, p {
+    font-size: 0.8rem;
+  }
+
+  .Mycontainer, .Mycontainer1 {
+    padding: 10px;
+  }
 }
