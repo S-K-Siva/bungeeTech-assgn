@@ -68,6 +68,7 @@ function App() {
     <div className="main-container">
     {!searchTrigger && (<div className="Mycontainer text-center mt-5">
       <FaMapLocation style={{'width':'7rem','height':'7rem','margin':'2rem'}}/>
+      <p>AP21110010068 | SIVA S K</p>
       <h1 className="mb-4" style={{ fontFamily: 'Arial, sans-serif' }}>Gio Weather</h1>
       <div className="col justify-content-center">
         <div className="row-md-4 mb-3">
