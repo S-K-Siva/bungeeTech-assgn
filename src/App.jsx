@@ -5,6 +5,8 @@ import { WiHumidity } from "react-icons/wi";
 import { LuAlarmClockCheck } from "react-icons/lu";
 import { FaMapLocation } from "react-icons/fa6";
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '@coreui/coreui/dist/css/coreui.min.css';
 
 function App() {
   const [countries, setCountries] = useState(Country.getAllCountries());

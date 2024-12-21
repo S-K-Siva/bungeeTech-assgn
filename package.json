@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@coreui/coreui": "^5.2.0",
+    "@coreui/react": "^5.4.1",
     "bootstrap": "^5.3.3",
     "country-state-city": "^3.2.1",
     "react": "^18.3.1",
